@@ -40,6 +40,7 @@ public class Visit {
         WebElement ms=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'iTravelKiosk')]")));
 
         Thread.sleep(5000);
+        ms.click();
 
         driver.close();
     }
